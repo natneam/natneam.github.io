@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    
+    <meta http-equiv="refresh" content="0; url='https://natneam.com'" />
+    <meta name="robots" content="noindex">
+
+    <script>
+      var newDomain = "https://natneam.com";
+      var path = window.location.pathname; // e.g., "/public-key.txt"
+      var query = window.location.search;  // e.g., "?user=123" (if any)
+      
+      // Instantly swap out the URL while preserving the exact path
+      window.location.replace(newDomain + path + query);
+    </script>
+  </head>
+  <body style="background: #0a0a0a; color: #e0e0e0; font-family: sans-serif; padding: 2rem;">
+    <p>I have moved! Redirecting...</p>
+  </body>
+</html>
